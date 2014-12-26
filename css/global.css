@@ -1,5 +1,9 @@
 #container {
+    width:100%;
     height:100%;
+    margin:0px;
+    padding:0px;
+    overflow-x: hidden;
 }
 .menu-header {
     background-color:#fff;
@@ -22,8 +26,7 @@ a {
     font-family:sans-serif;
 }
 .landing {
-    overflow-x:hidden;
-    height:800px;
+    height:100%;
     background-color:#3498db;
     align-content: center;
     margin-right:auto;
@@ -42,8 +45,14 @@ h3 {
     font-size:30px;
     font-family:sans-serif;
 }
-img {
-    margin-top:80px;
+.logomark {
+    margin-top:40px;
     width:300px;
     visibility: hidden;
+}
+.navmark {
+    width:60px;
+    margin-left:20px;
+    margin-right:50px;
+    float:left;
 }
