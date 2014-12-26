@@ -42,3 +42,8 @@ h3 {
     font-size:30px;
     font-family:sans-serif;
 }
+img {
+    margin-top:80px;
+    width:300px;
+    visibility: hidden;
+}
